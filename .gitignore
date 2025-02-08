@@ -1,0 +1,6 @@
+# Build & Debug Folders
+Build*/
+Debug*/
+
+# Temporary files
+*.DS_Store
