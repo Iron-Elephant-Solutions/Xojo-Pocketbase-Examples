@@ -1,11 +1,11 @@
 [
   {
     "id": "pbc_3901224370",
-    "listRule": "@request.auth.id != \"\" && @request.auth.id = @collection.toDo.user",
-    "viewRule": "@request.auth.id != \"\" && @request.auth.id = @collection.toDo.user",
+    "listRule": "@request.auth.id != \"\" && @request.auth.id = user.id",
+    "viewRule": "@request.auth.id != \"\" && @request.auth.id = user.id",
     "createRule": "@request.auth.id != \"\"",
-    "updateRule": "@request.auth.id != \"\" && @request.auth.id = @collection.toDo.user",
-    "deleteRule": "@request.auth.id != \"\" && @request.auth.id = @collection.toDo.user",
+    "updateRule": "@request.auth.id != \"\" && @request.auth.id = user.id",
+    "deleteRule": "@request.auth.id != \"\" && @request.auth.id = user.id",
     "name": "toDo",
     "type": "base",
     "fields": [
